@@ -1,0 +1,78 @@
+/* Стили для шапки сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    margin: 10;
+    padding: 10;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+  /* Стили для основного содержимого страницы */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+  }
+  
+  .price {
+    font-size: 20px;
+    margin: 0 0 20px 0;
+  }
+  
+  .description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+  }
+  
+  .add-to-cart {
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #555555;
+  }
